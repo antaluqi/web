@@ -1,0 +1,12 @@
+C:\Users\antal\Desktop\web\web\bin\Debug\web.exe.config
+C:\Users\antal\Desktop\web\web\bin\Debug\web.exe
+C:\Users\antal\Desktop\web\web\bin\Debug\web.pdb
+C:\Users\antal\Desktop\web\web\bin\Debug\tesseractengine3.dll
+C:\Users\antal\Desktop\web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
+C:\Users\antal\Desktop\web\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\antal\Desktop\web\web\obj\Debug\web.exe
+C:\Users\antal\Desktop\web\web\obj\Debug\web.pdb
+C:\Users\17197\Desktop\web\web\obj\Debug\web.csprojResolveAssemblyReference.cache
+C:\Users\17197\Desktop\web\web\obj\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\17197\Desktop\web\web\obj\Debug\web.exe
+C:\Users\17197\Desktop\web\web\obj\Debug\web.pdb

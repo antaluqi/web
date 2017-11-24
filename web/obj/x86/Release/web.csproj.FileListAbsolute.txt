@@ -1,0 +1,7 @@
+C:\Users\antal\Desktop\web\web\obj\x86\Release\web.csproj.CoreCompileInputs.cache
+C:\Users\antal\Desktop\web\web\bin\x86\Release\web.exe.config
+C:\Users\antal\Desktop\web\web\bin\x86\Release\web.exe
+C:\Users\antal\Desktop\web\web\bin\x86\Release\web.pdb
+C:\Users\antal\Desktop\web\web\obj\x86\Release\web.csprojResolveAssemblyReference.cache
+C:\Users\antal\Desktop\web\web\obj\x86\Release\web.exe
+C:\Users\antal\Desktop\web\web\obj\x86\Release\web.pdb
