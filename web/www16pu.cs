@@ -255,7 +255,7 @@ namespace WWW16pu
             }
 
             Console.WriteLine("开始购买....");
-            int reTry = 5;
+            int reTry = 15;
             while (reTry > 0)
             {
                 string r = Buy(money, ID);
