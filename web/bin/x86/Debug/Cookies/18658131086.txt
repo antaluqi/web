@@ -1,2 +1,3 @@
-www.16pu.com;acw_tc;/;;False;AQAAABSr5wcuLAAAWfpt2j0ssC+wX42q
-www.16pu.com;JSESSIONID;/;;True;1D00D415C12C925C738843FCABBCABE2
+www.16pu.com;aliyungf_tc;/;;False;AQAAAG1XjGf25g4AL1mdt+2lDKypEMuk
+www.16pu.com;acw_tc;/;;False;AQAAANOF3iZmPAAAL1mdtyzVi1HUnVlu
+www.16pu.com;JSESSIONID;/;;True;DDEC7DB44E9E3EABEFE7F51104CA9C3B

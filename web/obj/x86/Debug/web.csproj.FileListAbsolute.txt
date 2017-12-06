@@ -28,3 +28,13 @@ C:\Users\antal\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.csprojResolveAssembly
 C:\Users\antal\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.csproj.CoreCompileInputs.cache
 C:\Users\antal\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.exe
 C:\Users\antal\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.pdb
+C:\Users\17197\Desktop\Daniel\C#\web\web\bin\x86\Debug\web.exe.config
+C:\Users\17197\Desktop\Daniel\C#\web\web\bin\x86\Debug\web.exe
+C:\Users\17197\Desktop\Daniel\C#\web\web\bin\x86\Debug\web.pdb
+C:\Users\17197\Desktop\Daniel\C#\web\web\bin\x86\Debug\HtmlAgilityPack.dll
+C:\Users\17197\Desktop\Daniel\C#\web\web\bin\x86\Debug\HtmlAgilityPack.pdb
+C:\Users\17197\Desktop\Daniel\C#\web\web\bin\x86\Debug\HtmlAgilityPack.xml
+C:\Users\17197\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.csprojResolveAssemblyReference.cache
+C:\Users\17197\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.csproj.CoreCompileInputs.cache
+C:\Users\17197\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.exe
+C:\Users\17197\Desktop\Daniel\C#\web\web\obj\x86\Debug\web.pdb

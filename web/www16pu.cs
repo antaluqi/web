@@ -144,7 +144,7 @@ namespace WWW16pu
             StreamReader xml = resp.getStream();
             HtmlDocument doc = new HtmlDocument();
             doc.Load(xml);
-            HtmlNode node = doc.DocumentNode.SelectSingleNode(@".//div[@id=""MyDiv0""]/div[@class=""tc_cont_box""]/div[@class=""layer-xkzx-cont""]");
+            HtmlNode node = doc.DocumentNode.SelectSingleNode(@".//div[@id=""MyDiv0""]/div[@class=""tc_cont_box""]/div[@class=""layer-xkzx-cont""]/strong");
             if (node != null)
             {
                 result = node.InnerText.Trim();
@@ -185,7 +185,7 @@ namespace WWW16pu
                 if (pdetailInfo.Count == 0)
                 {
                     Console.WriteLine("没有可投标的");
-                    Thread.Sleep(5000);
+                    Thread.Sleep(30000);
                     continue;
 
                 }
@@ -238,20 +238,20 @@ namespace WWW16pu
             DateTime webTime = pdetail.Webtime;
             DateTime sysTime = pdetail.Systime;
             TimeSpan ts = startTime - DateTime.Now-(webTime-sysTime);
-            double seconds = Math.Max(0, Math.Ceiling(ts.TotalSeconds));
-            Console.WriteLine("投资标的{0}，投资金额{1}元，将于{2}秒后投标", ID, money, seconds);
+            //double seconds = Math.Max(0, Math.Ceiling(ts.TotalSeconds));
+            Console.WriteLine("投资标的{0}，投资金额{1}元，将于{2}秒后投标", ID, money, Math.Ceiling(ts.TotalSeconds));
 
-            double s = seconds;
-            while (s > 0)
+            //double s = seconds;
+            while (Math.Ceiling(ts.TotalSeconds) > 0)
             {
-                Console.WriteLine("倒计时{0}", s);
-                if (s == 2)
+                Console.WriteLine("倒计时{0}", Math.Ceiling(ts.TotalSeconds));
+                if (ts.TotalSeconds == 60)
                 {
                     string logInfo = "";
                     Login(ref logInfo);
                 }
                 Thread.Sleep(1000);
-                s = s - 1;
+                ts = startTime - DateTime.Now - (webTime - sysTime);
             }
 
             Console.WriteLine("开始购买....");
@@ -261,14 +261,14 @@ namespace WWW16pu
                 string r = Buy(money, ID);
                 if (r == "OK")
                 {
-
+                    Console.WriteLine("购买成功！");
                     return true;
                 }
                 else
                 {
                     Console.WriteLine(r);
                     reTry = reTry - 1;
-                    Thread.Sleep(500);
+                    Thread.Sleep(300);
                 }
             }
 
